@@ -84,7 +84,7 @@ The program can use your **phone or camera storage** as a source, log, destinati
 >Before starting, 
 Be sure to unlock your phone and allow your PC to access its files when prompted. You can check if your device is connected by opening *file explorer*.
 
-1. Enable the **“Source / Log / Destination is a phone”** checkbox at the corresponding zone.  You can select the same device as the source and destination.
+1. Enable the **"Source / Log / Destination is a phone"** checkbox at the corresponding zone.  You can select the same device as the source and destination.
 2. You will be prompted to select the root path of your device that you want to use. Choose the corresponding path and you shouldn't write it manually since the root path vary between devices.
 You usually have two choices:  
 	- Your internal storage 
@@ -206,7 +206,7 @@ If it consistently hangs at the same folder:
 
 ### Permissions & Administrator Mode
 The program doesn't request administrative rights automatically since it is not required most of the time.  
-If you see “*Access denied*” errors when reading or writing files or you want to copy system and temporary files :
+If you see *"Access denied"* errors when reading or writing files or you want to copy system and temporary files :
 1. Right-click `Local Backup Creator.exe`
 2. Select **Run as Administrator**
 
@@ -219,7 +219,7 @@ System and temporary files will not be copied only with admin rights since you h
 1. **Select a source folder** — where your files are stored.
 2. **Select a destination folder** — where backups will go.
 3. *(Optional)* Select specific subfolders from the source folder.
-4. *(Optional)* Enable **“Source / Destination is a phone”** for MTP devices.
+4. *(Optional)* Enable ***Source / Destination is a phone*** for MTP devices.
 5. *(Optional)* Adjust thread count and background settings in `settings.cfg`.
 6. Click **Start Backup** and monitor the progress.
 7. When finished, it is recommended to review the log file for skipped items.
