@@ -1,0 +1,9 @@
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Local Backup Creator.exe
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Resources\(un)license.md
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Resources\instructions.md
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Resources\settings.cfg
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Local Backup Creator.dll
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Local Backup Creator.deps.json
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Local Backup Creator.runtimeconfig.json
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\Local Backup Creator.pdb
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\publish\MediaDevices.dll

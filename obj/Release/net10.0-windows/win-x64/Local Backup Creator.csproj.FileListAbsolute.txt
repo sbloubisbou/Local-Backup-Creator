@@ -1,0 +1,46 @@
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Local Backup Creator.exe
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Local Backup Creator.deps.json
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Local Backup Creator.runtimeconfig.json
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Local Backup Creator.dll
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\MediaDevices.dll
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.AssemblyReference.cache
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local_Backup_Creator.MainForm.resources
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local_Backup_Creator.Properties.Resources.resources
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.GenerateResource.cache
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.AssemblyInfoInputs.cache
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.AssemblyInfo.cs
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.CoreCompileInputs.cache
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Ba.F5ECDC19.Up2Date
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.dll
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\refint\Local Backup Creator.dll
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.genruntimeconfig.cache
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\ref\Local Backup Creator.dll
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Local Backup Creator.pdb
+C:\Users\trist\Informatique\Projets\Local Backup Creator\obj\Release\net10.0-windows\win-x64\Local Backup Creator.pdb
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Resources\(un)license.md
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Resources\instructions.md
+C:\Users\trist\Informatique\Projets\Local Backup Creator\bin\Release\net10.0-windows\win-x64\Resources\settings.cfg
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Resources\(un)license.md
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Resources\settings.cfg
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Resources\instructions.md
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Local Backup Creator.exe
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Local Backup Creator.deps.json
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Local Backup Creator.runtimeconfig.json
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Local Backup Creator.dll
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\Local Backup Creator.pdb
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\bin\Release\net10.0-windows\win-x64\MediaDevices.dll
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.AssemblyReference.cache
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local_Backup_Creator.MainForm.resources
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local_Backup_Creator.Properties.Resources.resources
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.GenerateResource.cache
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.AssemblyInfoInputs.cache
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.AssemblyInfo.cs
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.csproj.CoreCompileInputs.cache
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Ba.F5ECDC19.Up2Date
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.dll
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\refint\Local Backup Creator.dll
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.pdb
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\Local Backup Creator.genruntimeconfig.cache
+C:\Users\trist\Informatique\Local Backup Creator\Local Backup Creator Code Source\obj\Release\net10.0-windows\win-x64\ref\Local Backup Creator.dll
