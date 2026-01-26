@@ -7,7 +7,7 @@
 It is designed for quick, configurable backups and supports both local storage and portable devices (via MTP).
 
 This program is **public domain** — you can use, modify, or redistribute it freely.  
-(Though, I wouldn’t recommend selling it. There are a few... bugs... to say the least!)
+(Though, I wouldn't recommend selling it. There are a few... bugs... to say the least!)
 
 ---
 
@@ -205,7 +205,7 @@ If it consistently hangs at the same folder:
 ---
 
 ### Permissions & Administrator Mode
-The program doesn’t request administrative rights automatically since it is not required most of the time.  
+The program doesn't request administrative rights automatically since it is not required most of the time.  
 If you see “*Access denied*” errors when reading or writing files or you want to copy system and temporary files :
 1. Right-click `Local Backup Creator.exe`
 2. Select **Run as Administrator**
