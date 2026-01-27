@@ -3,7 +3,7 @@
 
 ### Overview
 
-**Local Backup Creator** is a lightweight Windows application that synchronizes files and folders between a source and a destination path.  
+**Local Backup Creator** is a lightweight portable Windows application that synchronizes files and folders between a source and a destination path.  
 It is designed for quick, configurable backups and supports both local storage and portable devices (via MTP).
 
 This program is **public domain** — you can use, modify, or redistribute it freely.  
