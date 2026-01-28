@@ -76,13 +76,13 @@
             // 
             textBoxSrcFolder.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBoxSrcFolder.BackColor = SystemColors.Window;
-            textBoxSrcFolder.Location = new Point(42, 65);
+            textBoxSrcFolder.Location = new Point(34, 52);
             textBoxSrcFolder.Margin = new Padding(2);
-            textBoxSrcFolder.MaximumSize = new Size(8192, 27);
-            textBoxSrcFolder.MinimumSize = new Size(462, 27);
+            textBoxSrcFolder.MaximumSize = new Size(6554, 27);
+            textBoxSrcFolder.MinimumSize = new Size(370, 27);
             textBoxSrcFolder.Name = "textBoxSrcFolder";
             textBoxSrcFolder.PlaceholderText = "Example : C:\\Users\\public or C:\\My Backup";
-            textBoxSrcFolder.Size = new Size(463, 27);
+            textBoxSrcFolder.Size = new Size(373, 27);
             textBoxSrcFolder.TabIndex = 3;
             toolTip1.SetToolTip(textBoxSrcFolder, "Displays the selected source folder path.");
             // 
@@ -90,10 +90,10 @@
             // 
             checkBoxCompMeta.AutoSize = true;
             checkBoxCompMeta.BackColor = Color.Transparent;
-            checkBoxCompMeta.Location = new Point(42, 26);
+            checkBoxCompMeta.Location = new Point(34, 21);
             checkBoxCompMeta.Margin = new Padding(2);
             checkBoxCompMeta.Name = "checkBoxCompMeta";
-            checkBoxCompMeta.Size = new Size(185, 24);
+            checkBoxCompMeta.Size = new Size(147, 19);
             checkBoxCompMeta.TabIndex = 4;
             checkBoxCompMeta.Text = "Compare file metadata";
             toolTip1.SetToolTip(checkBoxCompMeta, "If checked, the program compares file details (size, modification date, etc.) before copying to make the backup more accurate.");
@@ -104,10 +104,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(42, 12);
+            label1.Location = new Point(34, 10);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(200, 20);
+            label1.Size = new Size(159, 15);
             label1.TabIndex = 7;
             label1.Text = "Location of the source folder";
             toolTip1.SetToolTip(label1, "Choose the main folder you want to back up.");
@@ -121,10 +121,10 @@
             linkLabel1.DisabledLinkColor = Color.MidnightBlue;
             linkLabel1.LinkBehavior = LinkBehavior.AlwaysUnderline;
             linkLabel1.LinkColor = Color.DarkSlateBlue;
-            linkLabel1.Location = new Point(454, 9);
+            linkLabel1.Location = new Point(365, 7);
             linkLabel1.Margin = new Padding(2, 0, 2, 0);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(145, 20);
+            linkLabel1.Size = new Size(117, 15);
             linkLabel1.TabIndex = 8;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "View the instructions";
@@ -136,10 +136,10 @@
             buttonCancel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonCancel.BackColor = SystemColors.Window;
             buttonCancel.ForeColor = Color.FromArgb(192, 0, 0);
-            buttonCancel.Location = new Point(264, 21);
+            buttonCancel.Location = new Point(211, 17);
             buttonCancel.Margin = new Padding(2);
             buttonCancel.Name = "buttonCancel";
-            buttonCancel.Size = new Size(94, 32);
+            buttonCancel.Size = new Size(75, 26);
             buttonCancel.TabIndex = 9;
             buttonCancel.Text = "Cancel";
             toolTip1.SetToolTip(buttonCancel, "Closes the program and interrupts the backup process");
@@ -151,10 +151,10 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(42, 19);
+            label2.Location = new Point(34, 15);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(231, 20);
+            label2.Size = new Size(183, 15);
             label2.TabIndex = 11;
             label2.Text = "Location of the destination folder";
             toolTip1.SetToolTip(label2, "Choose where the backup files will be copied to. This can be a local folder, an external drive, or a connected MTP device.");
@@ -162,13 +162,13 @@
             // textBoxDstFolder
             // 
             textBoxDstFolder.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxDstFolder.Location = new Point(42, 69);
+            textBoxDstFolder.Location = new Point(34, 55);
             textBoxDstFolder.Margin = new Padding(2);
-            textBoxDstFolder.MaximumSize = new Size(8192, 27);
-            textBoxDstFolder.MinimumSize = new Size(462, 27);
+            textBoxDstFolder.MaximumSize = new Size(6554, 27);
+            textBoxDstFolder.MinimumSize = new Size(370, 27);
             textBoxDstFolder.Name = "textBoxDstFolder";
             textBoxDstFolder.PlaceholderText = "Example : D:\\My Backup or \\\\NAS-01\\shared-files\\backup";
-            textBoxDstFolder.Size = new Size(463, 27);
+            textBoxDstFolder.Size = new Size(373, 27);
             textBoxDstFolder.TabIndex = 10;
             toolTip1.SetToolTip(textBoxDstFolder, "Displays the path where the backup will be created.");
             // 
@@ -176,10 +176,10 @@
             // 
             checkBoxLOG.AutoSize = true;
             checkBoxLOG.BackColor = Color.Transparent;
-            checkBoxLOG.Location = new Point(42, 36);
+            checkBoxLOG.Location = new Point(34, 29);
             checkBoxLOG.Margin = new Padding(2);
             checkBoxLOG.Name = "checkBoxLOG";
-            checkBoxLOG.Size = new Size(202, 24);
+            checkBoxLOG.Size = new Size(159, 19);
             checkBoxLOG.TabIndex = 12;
             checkBoxLOG.Text = "Generate a .log file report";
             toolTip1.SetToolTip(checkBoxLOG, "Enable this to create a detailed text log of the backup process.");
@@ -191,12 +191,12 @@
             pictureBoxORNAMENT.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBoxORNAMENT.BackColor = Color.Transparent;
             pictureBoxORNAMENT.Image = (Image)resources.GetObject("pictureBoxORNAMENT.Image");
-            pictureBoxORNAMENT.Location = new Point(9, 9);
+            pictureBoxORNAMENT.Location = new Point(7, 7);
             pictureBoxORNAMENT.Margin = new Padding(2);
-            pictureBoxORNAMENT.MaximumSize = new Size(101, 512);
-            pictureBoxORNAMENT.MinimumSize = new Size(101, 512);
+            pictureBoxORNAMENT.MaximumSize = new Size(81, 410);
+            pictureBoxORNAMENT.MinimumSize = new Size(81, 410);
             pictureBoxORNAMENT.Name = "pictureBoxORNAMENT";
-            pictureBoxORNAMENT.Size = new Size(101, 512);
+            pictureBoxORNAMENT.Size = new Size(81, 410);
             pictureBoxORNAMENT.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxORNAMENT.TabIndex = 13;
             pictureBoxORNAMENT.TabStop = false;
@@ -206,10 +206,10 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(42, 14);
+            label4.Location = new Point(34, 11);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(117, 20);
+            label4.Size = new Size(92, 15);
             label4.TabIndex = 15;
             label4.Text = "Log file location";
             toolTip1.SetToolTip(label4, "Specifies where the backup log (.log) file will be saved. The log records which files were copied, skipped, or failed.");
@@ -217,13 +217,13 @@
             // textBoxLocationLOG
             // 
             textBoxLocationLOG.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxLocationLOG.Location = new Point(42, 60);
+            textBoxLocationLOG.Location = new Point(34, 48);
             textBoxLocationLOG.Margin = new Padding(2);
-            textBoxLocationLOG.MaximumSize = new Size(8192, 27);
-            textBoxLocationLOG.MinimumSize = new Size(462, 27);
+            textBoxLocationLOG.MaximumSize = new Size(6554, 27);
+            textBoxLocationLOG.MinimumSize = new Size(370, 27);
             textBoxLocationLOG.Name = "textBoxLocationLOG";
             textBoxLocationLOG.PlaceholderText = "Example : D:\\ or \\\\192.168.0.10\\data\\logs";
-            textBoxLocationLOG.Size = new Size(463, 27);
+            textBoxLocationLOG.Size = new Size(373, 27);
             textBoxLocationLOG.TabIndex = 14;
             toolTip1.SetToolTip(textBoxLocationLOG, "Opens a folder picker or device selector to choose where to store the log file.");
             // 
@@ -231,10 +231,10 @@
             // 
             checkBoxSubfolder.AutoSize = true;
             checkBoxSubfolder.BackColor = Color.Transparent;
-            checkBoxSubfolder.Location = new Point(42, 32);
+            checkBoxSubfolder.Location = new Point(34, 26);
             checkBoxSubfolder.Margin = new Padding(2);
             checkBoxSubfolder.Name = "checkBoxSubfolder";
-            checkBoxSubfolder.Size = new Size(357, 24);
+            checkBoxSubfolder.Size = new Size(284, 19);
             checkBoxSubfolder.TabIndex = 26;
             checkBoxSubfolder.Text = "Select specific subfolders inside the source folder";
             toolTip1.SetToolTip(checkBoxSubfolder, "Enable this if you only want to include certain subfolders from the source in the backup.");
@@ -246,10 +246,10 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(42, 10);
+            label3.Location = new Point(34, 8);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(257, 20);
+            label3.Size = new Size(203, 15);
             label3.TabIndex = 25;
             label3.Text = "Subfolders to include (separated by ;)";
             toolTip1.SetToolTip(label3, "If you only want specific subfolders inside the source folder.");
@@ -257,13 +257,13 @@
             // textBoxSubfolder
             // 
             textBoxSubfolder.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxSubfolder.Location = new Point(42, 60);
+            textBoxSubfolder.Location = new Point(34, 48);
             textBoxSubfolder.Margin = new Padding(2);
-            textBoxSubfolder.MaximumSize = new Size(8192, 27);
-            textBoxSubfolder.MinimumSize = new Size(462, 27);
+            textBoxSubfolder.MaximumSize = new Size(6554, 27);
+            textBoxSubfolder.MinimumSize = new Size(370, 27);
             textBoxSubfolder.Name = "textBoxSubfolder";
             textBoxSubfolder.PlaceholderText = "Example : Documents;Downloads;Pictures;Videos";
-            textBoxSubfolder.Size = new Size(462, 27);
+            textBoxSubfolder.Size = new Size(372, 27);
             textBoxSubfolder.TabIndex = 24;
             toolTip1.SetToolTip(textBoxSubfolder, "Type the names of the subfolders to include, separated by the ; character.");
             // 
@@ -272,10 +272,10 @@
             checkBoxSrcMTP.AutoSize = true;
             checkBoxSrcMTP.BackColor = Color.Transparent;
             checkBoxSrcMTP.BackgroundImageLayout = ImageLayout.None;
-            checkBoxSrcMTP.Location = new Point(42, 37);
+            checkBoxSrcMTP.Location = new Point(34, 30);
             checkBoxSrcMTP.Margin = new Padding(2);
             checkBoxSrcMTP.Name = "checkBoxSrcMTP";
-            checkBoxSrcMTP.Size = new Size(264, 24);
+            checkBoxSrcMTP.Size = new Size(212, 19);
             checkBoxSrcMTP.TabIndex = 31;
             checkBoxSrcMTP.Text = "Source is a media device (use MTP)";
             toolTip1.SetToolTip(checkBoxSrcMTP, "Enable this if your source files are stored on a device connected by USB.");
@@ -286,12 +286,12 @@
             // 
             progressBarBackup.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             progressBarBackup.BackColor = Color.Blue;
-            progressBarBackup.Location = new Point(42, 57);
+            progressBarBackup.Location = new Point(34, 46);
             progressBarBackup.Margin = new Padding(2);
-            progressBarBackup.MaximumSize = new Size(8192, 100);
-            progressBarBackup.MinimumSize = new Size(559, 41);
+            progressBarBackup.MaximumSize = new Size(6554, 80);
+            progressBarBackup.MinimumSize = new Size(447, 33);
             progressBarBackup.Name = "progressBarBackup";
-            progressBarBackup.Size = new Size(560, 41);
+            progressBarBackup.Size = new Size(448, 33);
             progressBarBackup.TabIndex = 28;
             // 
             // labelProgress
@@ -299,10 +299,10 @@
             labelProgress.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             labelProgress.AutoSize = true;
             labelProgress.BackColor = Color.Transparent;
-            labelProgress.Location = new Point(42, 100);
+            labelProgress.Location = new Point(34, 80);
             labelProgress.Margin = new Padding(2, 0, 2, 0);
             labelProgress.Name = "labelProgress";
-            labelProgress.Size = new Size(217, 20);
+            labelProgress.Size = new Size(172, 15);
             labelProgress.TabIndex = 29;
             labelProgress.Text = "Press Start to create the backup";
             toolTip1.SetToolTip(labelProgress, "Current status of the Backup.");
@@ -312,12 +312,12 @@
             pictureBoxGIF.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             pictureBoxGIF.BackColor = Color.Transparent;
             pictureBoxGIF.Image = (Image)resources.GetObject("pictureBoxGIF.Image");
-            pictureBoxGIF.Location = new Point(423, 98);
+            pictureBoxGIF.Location = new Point(338, 78);
             pictureBoxGIF.Margin = new Padding(2);
-            pictureBoxGIF.MaximumSize = new Size(191, 49);
-            pictureBoxGIF.MinimumSize = new Size(191, 49);
+            pictureBoxGIF.MaximumSize = new Size(153, 39);
+            pictureBoxGIF.MinimumSize = new Size(153, 39);
             pictureBoxGIF.Name = "pictureBoxGIF";
-            pictureBoxGIF.Size = new Size(191, 49);
+            pictureBoxGIF.Size = new Size(153, 39);
             pictureBoxGIF.TabIndex = 30;
             pictureBoxGIF.TabStop = false;
             // 
@@ -325,10 +325,10 @@
             // 
             checkBoxDstMTP.AutoSize = true;
             checkBoxDstMTP.BackColor = Color.Transparent;
-            checkBoxDstMTP.Location = new Point(42, 41);
+            checkBoxDstMTP.Location = new Point(34, 33);
             checkBoxDstMTP.Margin = new Padding(2);
             checkBoxDstMTP.Name = "checkBoxDstMTP";
-            checkBoxDstMTP.Size = new Size(295, 24);
+            checkBoxDstMTP.Size = new Size(236, 19);
             checkBoxDstMTP.TabIndex = 32;
             checkBoxDstMTP.Text = "Destination is a media device (use MTP)";
             toolTip1.SetToolTip(checkBoxDstMTP, "Enable this if you want to back up directly to a connected device.");
@@ -340,10 +340,10 @@
             checkBoxLOGMTP.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             checkBoxLOGMTP.AutoSize = true;
             checkBoxLOGMTP.BackColor = Color.Transparent;
-            checkBoxLOGMTP.Location = new Point(282, 36);
+            checkBoxLOGMTP.Location = new Point(228, 29);
             checkBoxLOGMTP.Margin = new Padding(2);
             checkBoxLOGMTP.Name = "checkBoxLOGMTP";
-            checkBoxLOGMTP.Size = new Size(223, 24);
+            checkBoxLOGMTP.Size = new Size(178, 19);
             checkBoxLOGMTP.TabIndex = 33;
             checkBoxLOGMTP.Text = "Location is in a media device";
             toolTip1.SetToolTip(checkBoxLOGMTP, "Check this if you want to save the log file directly on a connected device instead of your computer.");
@@ -355,10 +355,10 @@
             buttonSaveConfig.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSaveConfig.BackColor = SystemColors.Window;
             buttonSaveConfig.ForeColor = Color.MediumBlue;
-            buttonSaveConfig.Location = new Point(362, 21);
+            buttonSaveConfig.Location = new Point(290, 17);
             buttonSaveConfig.Margin = new Padding(2);
             buttonSaveConfig.Name = "buttonSaveConfig";
-            buttonSaveConfig.Size = new Size(142, 32);
+            buttonSaveConfig.Size = new Size(114, 26);
             buttonSaveConfig.TabIndex = 34;
             buttonSaveConfig.Text = "Save configuration";
             toolTip1.SetToolTip(buttonSaveConfig, "Saves your current settings (source, destination, log location, and options) for next time you open the program.");
@@ -370,10 +370,10 @@
             buttonStart.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonStart.BackColor = SystemColors.Window;
             buttonStart.ForeColor = Color.Green;
-            buttonStart.Location = new Point(508, 21);
+            buttonStart.Location = new Point(406, 17);
             buttonStart.Margin = new Padding(2);
             buttonStart.Name = "buttonStart";
-            buttonStart.Size = new Size(94, 32);
+            buttonStart.Size = new Size(75, 26);
             buttonStart.TabIndex = 35;
             buttonStart.Text = "Start";
             toolTip1.SetToolTip(buttonStart, "Starts the backup process.");
@@ -385,10 +385,10 @@
             buttonSelectSrcFolder.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSelectSrcFolder.BackColor = SystemColors.Window;
             buttonSelectSrcFolder.ForeColor = Color.RoyalBlue;
-            buttonSelectSrcFolder.Location = new Point(508, 64);
+            buttonSelectSrcFolder.Location = new Point(408, 51);
             buttonSelectSrcFolder.Margin = new Padding(2);
             buttonSelectSrcFolder.Name = "buttonSelectSrcFolder";
-            buttonSelectSrcFolder.Size = new Size(94, 29);
+            buttonSelectSrcFolder.Size = new Size(75, 23);
             buttonSelectSrcFolder.TabIndex = 39;
             buttonSelectSrcFolder.Text = "Select";
             toolTip1.SetToolTip(buttonSelectSrcFolder, "Select the corresponding path.");
@@ -400,10 +400,10 @@
             buttonSelectSubfolder.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSelectSubfolder.BackColor = SystemColors.Window;
             buttonSelectSubfolder.ForeColor = Color.RoyalBlue;
-            buttonSelectSubfolder.Location = new Point(507, 59);
+            buttonSelectSubfolder.Location = new Point(408, 47);
             buttonSelectSubfolder.Margin = new Padding(2);
             buttonSelectSubfolder.Name = "buttonSelectSubfolder";
-            buttonSelectSubfolder.Size = new Size(94, 29);
+            buttonSelectSubfolder.Size = new Size(75, 23);
             buttonSelectSubfolder.TabIndex = 40;
             buttonSelectSubfolder.Text = "Select";
             toolTip1.SetToolTip(buttonSelectSubfolder, "Select the corresponding path.");
@@ -415,10 +415,10 @@
             buttonSelectDstFolder.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSelectDstFolder.BackColor = SystemColors.Window;
             buttonSelectDstFolder.ForeColor = Color.RoyalBlue;
-            buttonSelectDstFolder.Location = new Point(508, 68);
+            buttonSelectDstFolder.Location = new Point(408, 54);
             buttonSelectDstFolder.Margin = new Padding(2);
             buttonSelectDstFolder.Name = "buttonSelectDstFolder";
-            buttonSelectDstFolder.Size = new Size(94, 29);
+            buttonSelectDstFolder.Size = new Size(75, 23);
             buttonSelectDstFolder.TabIndex = 41;
             buttonSelectDstFolder.Text = "Select";
             toolTip1.SetToolTip(buttonSelectDstFolder, "Select the corresponding path.");
@@ -430,10 +430,10 @@
             buttonSelectLOG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSelectLOG.BackColor = SystemColors.Window;
             buttonSelectLOG.ForeColor = Color.RoyalBlue;
-            buttonSelectLOG.Location = new Point(508, 59);
+            buttonSelectLOG.Location = new Point(408, 47);
             buttonSelectLOG.Margin = new Padding(2);
             buttonSelectLOG.Name = "buttonSelectLOG";
-            buttonSelectLOG.Size = new Size(94, 29);
+            buttonSelectLOG.Size = new Size(75, 23);
             buttonSelectLOG.TabIndex = 42;
             buttonSelectLOG.Text = "Select";
             toolTip1.SetToolTip(buttonSelectLOG, "Select the corresponding path.");
@@ -449,10 +449,10 @@
             panel1.Controls.Add(checkBoxSrcMTP);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(linkLabel1);
-            panel1.Location = new Point(86, -3);
+            panel1.Location = new Point(69, -2);
             panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(614, 101);
+            panel1.Size = new Size(493, 81);
             panel1.TabIndex = 40;
             // 
             // panel2
@@ -463,10 +463,10 @@
             panel2.Controls.Add(textBoxSubfolder);
             panel2.Controls.Add(checkBoxSubfolder);
             panel2.Controls.Add(label3);
-            panel2.Location = new Point(86, 96);
+            panel2.Location = new Point(69, 77);
             panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(614, 95);
+            panel2.Size = new Size(493, 76);
             panel2.TabIndex = 41;
             // 
             // panel3
@@ -477,10 +477,10 @@
             panel3.Controls.Add(textBoxDstFolder);
             panel3.Controls.Add(checkBoxDstMTP);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(86, 190);
+            panel3.Location = new Point(69, 152);
             panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(614, 102);
+            panel3.Size = new Size(493, 82);
             panel3.TabIndex = 43;
             // 
             // panel4
@@ -492,10 +492,10 @@
             panel4.Controls.Add(checkBoxLOGMTP);
             panel4.Controls.Add(label4);
             panel4.Controls.Add(checkBoxLOG);
-            panel4.Location = new Point(86, 292);
+            panel4.Location = new Point(69, 234);
             panel4.Margin = new Padding(2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(614, 95);
+            panel4.Size = new Size(493, 76);
             panel4.TabIndex = 44;
             // 
             // panel5
@@ -509,10 +509,10 @@
             panel5.Controls.Add(buttonSaveConfig);
             panel5.Controls.Add(progressBarBackup);
             panel5.Controls.Add(checkBoxCompMeta);
-            panel5.Location = new Point(86, 384);
+            panel5.Location = new Point(71, 309);
             panel5.Margin = new Padding(2);
             panel5.Name = "panel5";
-            panel5.Size = new Size(614, 156);
+            panel5.Size = new Size(491, 125);
             panel5.TabIndex = 44;
             // 
             // panel6
@@ -523,17 +523,17 @@
             panel6.Location = new Point(0, 0);
             panel6.Margin = new Padding(2);
             panel6.Name = "panel6";
-            panel6.Size = new Size(90, 531);
+            panel6.Size = new Size(72, 432);
             panel6.TabIndex = 45;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(700, 531);
+            ClientSize = new Size(562, 431);
             Controls.Add(pictureBoxORNAMENT);
             Controls.Add(panel6);
             Controls.Add(panel1);
@@ -544,8 +544,8 @@
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
-            MaximumSize = new Size(8192, 8189);
-            MinimumSize = new Size(718, 578);
+            MaximumSize = new Size(6557, 6559);
+            MinimumSize = new Size(578, 470);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Local Backup Creator";
