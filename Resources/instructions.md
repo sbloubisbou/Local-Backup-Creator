@@ -1,6 +1,6 @@
-## Local Backup Creator — Instructions and Documentation
+# Local Backup Creator — Instructions and Documentation
 
-### Overview
+## Overview
 
 **Local Backup Creator** is a lightweight Windows application that synchronizes files and folders between a source and a destination path.
 
@@ -11,6 +11,17 @@ This program is **public domain** — you can use, modify, or redistribute it fr
 (Though, I wouldn't recommend selling it. There are a few... bugs... to say the least!)
 
 ---
+
+#### More info :
+
+>To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win_x64*** folder.
+
+Here is the [(un)license](/(un)license.md) — which is Public Domain.
+
+And here is the [settings file](/settings.cfg) file mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
+
+---
+
 
 ## Requirements
 
