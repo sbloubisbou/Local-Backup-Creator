@@ -344,7 +344,6 @@ namespace Local_Backup_Creator.Utility
                                     optimalBuffer = 131072; //128KB SATA and NVMe
                                 }
 
-
                                 using FileStream sourceStream = new(
                                 sourcePath, FileMode.Open, FileAccess.Read, FileShare.Read,
                                 bufferSize: optimalBuffer, useAsync: true);
