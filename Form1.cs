@@ -866,7 +866,7 @@ namespace Local_Backup_Creator
                 $"backgroundLaunch={Config.backgroundLaunch.ToString().ToLower()}",
                 $"autoClose={Config.autoClose.ToString().ToLower()}",
                 $"",
-                $"MaxThreads={(Config.pcThreads == Environment.ProcessorCount ? "0" : "1")}",
+                $"MaxThreads={(Config.pcThreads == Environment.ProcessorCount ? "0" : Config.pcThreads)}",
                 $"",
                 $"includeSysTemp={Config.includeSysTemp.ToString().ToLower()}"
             ];

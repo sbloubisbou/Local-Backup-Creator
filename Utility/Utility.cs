@@ -333,13 +333,25 @@ namespace Local_Backup_Creator.Utility
 
                             else
                             {
+                                //Determine the optimal buffer size depending on the # of CPU cores.
+                                int optimalBuffer = 0;
+                                if (Config.pcThreads < 8)
+                                {
+                                    optimalBuffer = 262144; //256KB HDDs and Network
+                                }
+                                else
+                                {
+                                    optimalBuffer = 131072; //128KB SATA and NVMe
+                                }
+
+
                                 using FileStream sourceStream = new(
                                 sourcePath, FileMode.Open, FileAccess.Read, FileShare.Read,
-                                bufferSize: 81920, useAsync: true);
+                                bufferSize: optimalBuffer, useAsync: true);
 
                                 using FileStream destinationStream = new(
                                 mainPath, FileMode.Create, FileAccess.Write, FileShare.None,
-                                bufferSize: 81920, useAsync: true);
+                                bufferSize: optimalBuffer, useAsync: true);
 
                                 await sourceStream.CopyToAsync(destinationStream);
                                 await destinationStream.FlushAsync();
